@@ -1,0 +1,189 @@
+{
+  "categories": [
+    "spesial offer",
+    "game",
+    "film"
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Combo SAKTI MAX",
+      "price": 48000,
+      "description": "Combo SAKTI MAX sendiri menawarkan dua pilihan paket yang terdiri dari kuota 10 GB dan 16 GB. Kuota internet dari kedua paket ini dapat digunakan di semua jaringan 2G/3G/4G.",
+      "category": "spesial offer",
+      "image": "https://gadgetren.com/wp-content/uploads/2021/03/Combo-SAKTI-Max-Telkomsel-1200x675.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Paket Zoom Pro ",
+      "price": 25000,
+      "description": "Paket Zoom Pro berlaku untuk 3 hari, dengan detail: Kuota 1,5GB untuk akses aplikasi Zoom, Langganan akun Zoom Pro berlaku untuk 3 hari, Akun Zoom Pro bisa melakukan host meeting lebih dari 40 menit dengan partisipan hingga 300 orang.",
+      "category": "spesial offer",
+      "image": "https://gadgetren.com/wp-content/uploads/2021/09/Telkomsel-Zoom-Pro.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "Internet OMG",
+      "price": 98000,
+      "description": "Paket bulanan OMG! Nonton kini hadir dengan kuota aplikasi lebih besar, Kuota internet 12 GB",
+      "category": "spesial offer",
+      "image": "https://cdn-2.tstatic.net/tribunnews/foto/bank/images/kuota-omg-telkomsel.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "Ketengan Unlimited",
+      "price": 16000,
+      "description": "Nikmati akses tanpa batas untuk Facebook, Instagram, YouTube atau TikTok hingga 3 hari tanpa takut kehabisan kuota di jaringan terbaik dari Telkomsel.",
+      "category": "spesial offer",
+      "image": "https://www.telkomsel.com/sites/default/files/product_banner_image/ketengan-unlimited.png",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "Ketengan TikTok",
+      "price": 12200,
+      "description": "Kuota Utama berlaku untuk 1 hari, dengan kuota: 5 GB di jaringan 2G/3G/4G.",
+      "category": "spesial offer",
+      "image": "https://static.arenalte.com/uploads/2019/03/TIKTOK-Video-TikTok-480x360.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "Mobile Legend 3GB",
+      "price": 20000,
+      "description": "Masa Berlaku : 14 Hari. 24 Jam akses mobile legend. Perpanjangan otomatis = Tidak.",
+      "category": "game",
+      "image": "https://vexagame.com/wp-content/uploads/2020/11/MLBB-Project-NEXT.png",
+      "rating": {
+        "rate": 4.1,
+        "count": 37
+      }
+    },
+    {
+      "id": 7,
+      "title": "Mobile Legend 7GB + 1GB",
+      "price": 32000,
+      "description": "Bonus Kuota Reguler 1GB. Masa Berlaku : 30 Hari. Kuota reguler dapat diakses 24 Jam. Perpanjangan otomatis = Tidak.",
+      "category": "game",
+      "image": "https://vexagame.com/wp-content/uploads/2020/11/MLBB-Project-NEXT.png",
+      "rating": {
+        "rate": 3.2,
+        "count": 68
+      }
+    },
+    {
+      "id": 8,
+      "title": "FreeFire 3 GB",
+      "price": 20000,
+      "description": "Masa Berlaku : 14 Hari. 24 Jam akses FreeFire. Perpanjangan otomatis = Tidak.",
+      "category": "game",
+      "image": "https://play-lh.googleusercontent.com/Knw_hAyujH2PKqKtOEM5r8oJ_U-enugflHPpAMUr2T1R6Fp3AUPMYlLKm476BYwNt3Wl",
+      "rating": {
+        "rate": 3.6,
+        "count": 88
+      }
+    },
+    {
+      "id": 9,
+      "title": "FreeFire 7 GB + 1GB",
+      "price": 32000,
+      "description": "Bonus Kuota Reguler 1GB. Masa Berlaku : 30 Hari. 24 Jam akses FreeFire. Perpanjangan otomatis = Tidak.",
+      "category": "game",
+      "image": "https://play-lh.googleusercontent.com/Knw_hAyujH2PKqKtOEM5r8oJ_U-enugflHPpAMUr2T1R6Fp3AUPMYlLKm476BYwNt3Wl",
+      "rating": {
+        "rate": 3.9,
+        "count": 56
+      }
+    },
+    {
+      "id": 10,
+      "title": "PUBG Mobile 5 GB",
+      "price": 25000,
+      "description": "Masa Berlaku : 14 Hari. 24 Jam akses PUBG Mobile. Perpanjangan otomatis = Tidak.",
+      "category": "game",
+      "image": "https://images.bisnis-cdn.com/posts/2020/11/13/1317522/games-pubg.jpg",
+      "rating": {
+        "rate": 3.4,
+        "count": 43
+      }
+    },
+    {
+      "id": 11,
+      "title": "7 Hari Viu Premium",
+      "price": 7000,
+      "description": "7 Hari Viu Premium. Apa itu VIU? VIU adalah aplikasi Premium untuk menonton video sesuai keinginan Anda serta memberikan pengalaman luar biasa. Drama Korea - Variety Korea - Drama Indonesia, dan masih banyak lagi. Film juga dapat di unduh terlebih dahulu.",
+      "category": "film",
+      "image": "https://img.tek.id/img/content/2021/02/11/37329/viu-raih-posisi-pertama-dengan-pengguna-terbanyak-di-asia-tenggara-bXaGpWuMWm.png",
+      "rating": {
+        "rate": 4.1,
+        "count": 121
+      }
+    },
+    {
+      "id": 12,
+      "title": "14 Hari Viu Premium",
+      "price": 12000,
+      "description": "14 Hari Viu Premium. Apa itu VIU? VIU adalah aplikasi Premium untuk menonton video sesuai keinginan Anda serta memberikan pengalaman luar biasa. Drama Korea - Variety Korea - Drama Indonesia, dan masih banyak lagi. Film juga dapat di unduh terlebih dahulu.",
+      "category": "film",
+      "image": "https://img.tek.id/img/content/2021/02/11/37329/viu-raih-posisi-pertama-dengan-pengguna-terbanyak-di-asia-tenggara-bXaGpWuMWm.png",
+      "rating": {
+        "rate": 4.3,
+        "count": 97
+      }
+    },
+    {
+      "id": 13,
+      "title": "30 Hari Viu Premium",
+      "price": 20000,
+      "description": "30 Hari Viu Premium. Apa itu VIU? VIU adalah aplikasi Premium untuk menonton video sesuai keinginan Anda serta memberikan pengalaman luar biasa. Drama Korea - Variety Korea - Drama Indonesia, dan masih banyak lagi. Film juga dapat di unduh terlebih dahulu.",
+      "category": "film",
+      "image": "https://img.tek.id/img/content/2021/02/11/37329/viu-raih-posisi-pertama-dengan-pengguna-terbanyak-di-asia-tenggara-bXaGpWuMWm.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 241
+      }
+    },
+    {
+      "id": 14,
+      "title": "Kuota 10 GB + 30 Hari Viu Premium",
+      "price": 65000,
+      "description": "Kuota Reguler 10 GB 24 Jam dengan 7 Hari Viu Premium. Apa itu VIU? VIU adalah aplikasi Premium untuk menonton video sesuai keinginan Anda serta memberikan pengalaman luar biasa. Drama Korea - Variety Korea - Drama Indonesia, dan masih banyak lagi. Film juga dapat di unduh terlebih dahulu.",
+      "category": "film",
+      "image": "https://i2.wp.com/www.bukandroid.com/wp-content/uploads/2020/11/Cara-Menggunakan-Kuota-Streaming-Tri.jpg?fit=824%2C386&ssl=1",
+      "rating": {
+        "rate": 4.2,
+        "count": 144
+      }
+    },
+    {
+      "id": 15,
+      "title": "Kuota 15 GB + 30 Hari Viu Premium",
+      "price": 88000,
+      "description": "Kuota Reguler 15 GB 24 Jam dengan 30 Hari Viu Premium. Apa itu VIU? VIU adalah aplikasi Premium untuk menonton video sesuai keinginan Anda serta memberikan pengalaman luar biasa. Drama Korea - Variety Korea - Drama Indonesia, dan masih banyak lagi. Film juga dapat di unduh terlebih dahulu.",
+      "category": "film",
+      "image": "https://img.tek.id/img/content/2021/02/11/37329/viu-raih-posisi-pertama-dengan-pengguna-terbanyak-di-asia-tenggara-bXaGpWuMWm.png",
+      "rating": {
+        "rate": 4.6,
+        "count": 43
+      }
+    }
+  ]
+}

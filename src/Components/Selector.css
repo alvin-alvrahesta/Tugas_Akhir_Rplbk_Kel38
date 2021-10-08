@@ -1,0 +1,22 @@
+button {
+  width: 150px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: rgb(223, 28, 28);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+  border-width: 1.5px;
+  border-color: rgb(223, 28, 28);
+}
+
+button:hover {
+  background-color: rgb(221, 221, 221);
+  color: rgb(10, 10, 10);
+  border-color: rgb(10, 10, 10);
+}

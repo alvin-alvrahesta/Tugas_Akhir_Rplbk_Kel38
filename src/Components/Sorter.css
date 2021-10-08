@@ -1,0 +1,19 @@
+select {
+  background-color: rgb(255, 255, 255);
+  color: rgb(5, 5, 5);
+  padding: 12px;
+  width: 120px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+select:hover {
+  background-color: rgb(233, 190, 190);
+}
+select option {
+  padding: 10px;
+  background-color: rgb(151, 33, 33);
+}
