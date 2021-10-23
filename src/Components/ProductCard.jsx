@@ -2,8 +2,8 @@ import { useState } from "react";
 import Modal from "react-modal"; //React Modal
 import './ProductCard.css';
 
-
 const ProductCard = (props) => {
+  //Modul 4 (React Hooks - UseState Hook)
   const [showDesc, setShowDesc] = useState(false);
 
   const handleBukaDeskripsi = () => setShowDesc(true);
