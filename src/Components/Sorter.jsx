@@ -4,18 +4,18 @@ import ProductCard from "./ProductCard";
 import "./Sorter.css";
 
 const Sorter = () => {
-  const [sortBy, setSortBy] = useState("title");
+  const [sortBy, setSortBy] = useState("title"); //Modul 4 (React Hooks - UseState Hook)
   const [order, setOrder] = useState("asc");
-  const isFetching = useContext(FetchingContext);
+  const isFetching = useContext(FetchingContext); //Modul 4 (React Hooks - UseContext Hook)
   const productState = useContext(ProductStateContext);
   const [sortedProducts, setSortedProducts] = useState(
     productState.selectedProducts
   );
 
-  useEffect(() => {
+  useEffect(() => { //Modul 4 (React Hooks - UseEffect Hook)
     const sorter = (a, b) => {
-      if (a[sortBy] < b[sortBy]) return order === "asc" ? -1 : 1;
-      if (a[sortBy] > b[sortBy]) return order === "asc" ? 1 : -1;
+      if (a[sortBy] < b[sortBy]) return order === "asc" ? -1 : 1; //Set ASC
+      if (a[sortBy] > b[sortBy]) return order === "asc" ? 1 : -1; //Set DESC
       return 0;
     };
 
@@ -41,13 +41,13 @@ const Sorter = () => {
         <option value="asc">Asc</option>
         <option value="desc">Desc</option>
       </select>
-      
+
       {isFetching && <p>Loading...</p>}
       <div>
         <div className="grid-container">
           {sortedProducts.map((item) => (
-          <ProductCard key={item.id} product={item} />
-        ))}
+            <ProductCard key={item.id} product={item} />
+          ))}
         </div>
       </div>
     </div>

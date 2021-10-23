@@ -7,7 +7,7 @@ import {
 import Sorter from "./Sorter";
 import "./Selector.css";
 
-//Materi function Modul 1
+//Modul 1 - Materi Function 
 const Selector = () => {
   const isFetching = useContext(FetchingContext);
   const productState = useContext(ProductStateContext);
@@ -18,23 +18,23 @@ const Selector = () => {
   };
 
   return (
-      <div>
-          {!isFetching && <h2 style={{textTransform: "uppercase"}}>Kategori : {productState.selectedCategory}</h2>}
-        {isFetching ? ( //Materi Ternary Operator Modul 1
-          <b>Loading...</b>
-          ) : ( //Materi Data Structure (Pengolahan Data Array dengan fungsi Map()) Modul 1
-          <ul>
-            {productState.categories.map((category, index) => (
-              <button
+    <div>
+      {!isFetching && <h2 style={{ textTransform: "uppercase" }}>Kategori : {productState.selectedCategory}</h2>}
+      {isFetching ? ( //Modul 1 - Materi Ternary Operator
+        <b>Loading...</b>
+      ) : ( //Modul 1 - Materi Data Structure (Pengolahan Data Array dengan fungsi Map())
+        <ul>
+          {productState.categories.map((category, index) => (
+            <button
               key={index}
               name={category}
               onClick={handleCategoryButton}
-              >{category}</button>
-            ))}
-          </ul>
-        )}
-        <Sorter />
-      </div>
+            >{category}</button>
+          ))}
+        </ul>
+      )}
+      <Sorter />
+    </div>
   );
 };
 

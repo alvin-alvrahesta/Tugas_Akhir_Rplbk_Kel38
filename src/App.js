@@ -3,6 +3,7 @@ import { createContext, useEffect, useReducer, useState } from "react";
 import axios from "axios";
 import Selector from "./Components/Selector";
 
+//Modul 1 - Materi Scope (Root Scope)
 const initialProductState = {
   products: [],
   selectedProducts: [],
@@ -36,19 +37,19 @@ const productReducer = (state, action) => {
   }
 };
 
-//Materi Scope (Root Scope) Modul 1
 export const ProductStateContext = createContext();
 export const ProductDispatchContext = createContext();
 export const FetchingContext = createContext(false);
 
 const App = () => {
-  //Materi Scope (Child Scope) Modul 1
+  //Modul 1 - Materi Scope (Child Scope) 
   const [productState, productDispatch] = useReducer(
     productReducer,
     initialProductState
   );
   const [isFetching, setIsFetching] = useState(false);
 
+  //
   useEffect(() => {
     setIsFetching(true);
     axios({
